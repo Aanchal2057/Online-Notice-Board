@@ -93,10 +93,10 @@ CREATE TABLE `departmentadmin` (
 --
 
 INSERT INTO `departmentadmin` (`id`, `userid`, `password`, `department`, `mobile`, `email`) VALUES
-(5, 'da-cse', '202cb962ac59075b964b07152d234b70', 'CSE', '01888995566', 'da.cse@gmail.com'),
-(6, 'da-eng', '202cb962ac59075b964b07152d234b70', 'ENG', '01999778811', 'da.eng@gmail.com'),
-(7, 'da-fet', '202cb962ac59075b964b07152d234b70', 'FET', '01333554499', 'da.fet@gmail.com'),
-(8, 'da-phm', '202cb962ac59075b964b07152d234b70', 'PHM', '01777664477', 'da.phm@gmail.com');
+(5, 'da-cse', '827ccb0eea8a706c4c34a16891f84e7b', 'CSE', '01888995566', 'da.cse@gmail.com'),
+(6, 'da-eng', '827ccb0eea8a706c4c34a16891f84e7b', 'ENG', '01999778811', 'da.eng@gmail.com'),
+(7, 'da-fet', '827ccb0eea8a706c4c34a16891f84e7b', 'FET', '01333554499', 'da.fet@gmail.com'),
+(8, 'da-phm', '827ccb0eea8a706c4c34a16891f84e7b', 'PHM', '01777664477', 'da.phm@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -186,7 +186,7 @@ CREATE TABLE `superadmin` (
 --
 
 INSERT INTO `superadmin` (`id`, `userid`, `password`) VALUES
-(1, 'admin', '202cb962ac59075b964b07152d234b70');
+(1, 'admin', '827ccb0eea8a706c4c34a16891f84e7b');
 
 -- --------------------------------------------------------
 
@@ -208,8 +208,8 @@ CREATE TABLE `teacher` (
 --
 
 INSERT INTO `teacher` (`id`, `userid`, `name`, `deptid`, `contact`, `password`) VALUES
-(5, 't-cse123', 'Teacher 1', 'CSE', '01773654333', '202cb962ac59075b964b07152d234b70'),
-(6, 't-phm123', 'pharma teacher', 'PHM', '01773654333', '202cb962ac59075b964b07152d234b70');
+(5, 't-cse123', 'Teacher 1', 'CSE', '01773654333', '827ccb0eea8a706c4c34a16891f84e7b'),
+(6, 't-phm123', 'pharma teacher', 'PHM', '01773654333', '827ccb0eea8a706c4c34a16891f84e7b');
 
 -- --------------------------------------------------------
 
